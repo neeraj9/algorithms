@@ -117,7 +117,7 @@ This project has the following algoritms:
     </thead>
     <tbody>
         <tr>
-            <td><a href="graph/cpp11/adj_list_bfs.cpp">cpp11-Adj-List-BFS</a></td>
+            <td><a href="graph/cpp11/adj_list_bfs.cpp">cpp11-adj-list-bfs</a></td>
             <td>C++11 implementation of Breadth First Search with graph represented as an adjencency list.</td>
         </tr>
     </tbody>
