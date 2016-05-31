@@ -104,7 +104,7 @@ pretty straight-forward (see below).
 
 This project has the following algoritms:
 
-* graph - Algoritms related to graphs.
+* [graph](graph) - Algoritms related to graphs.
 
 ### Graph
 
