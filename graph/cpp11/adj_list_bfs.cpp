@@ -130,16 +130,17 @@ int main(int argc, char *argv[]) {
   bool directed = true;
   Graph g(directed);
 
+  // Building some graph, doesnt matter exactly what
   for (int i = 0; i < 4; ++i) {
     g.AddVertex(i);
   }
 
-	g.AddEdge(0, 1);
-	g.AddEdge(0, 2);
-	g.AddEdge(1, 2);
-	g.AddEdge(2, 0);
-	g.AddEdge(2, 3);
-	g.AddEdge(3, 3);
+  g.AddEdge(0, 1);
+  g.AddEdge(0, 2);
+  g.AddEdge(1, 2);
+  g.AddEdge(2, 0);
+  g.AddEdge(2, 3);
+  g.AddEdge(3, 3);
 
   std::forward_list<int> path;
   std::set<int> visited;
