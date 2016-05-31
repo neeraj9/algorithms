@@ -3,11 +3,16 @@
 [![Build Status](https://travis-ci.org/neeraj9/algorithms.svg?branch=master)](https://travis-ci.org/neeraj9/algorithms)
 [![Software License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](LICENSE)
 
-This project provides a clean C++11 interface which is lean and thin, while
-retaining features to be generic at the same time. There are a lot of
-opensource projects which does a lot more than this project can ever do but
-the idea is to provide a simplified approach in both data interchange
-and software design.
+This project provides a set of algorithms implemented in various programming
+languages (at present c++) which acts as reference implementation for
+fun (and could be for profit). The intention is to illustrate algorithms
+and data structures with a strong focus on clarity and clean design.
+
+The prime motivation is to illustrate implementation of algorithms in
+various programming languages to enable better understanding and
+language implementation of the same. Optimization is not the prime focus,
+so whenever required clarity will override optimization within the
+implementation.
 
 ## Software Dependencies
 
