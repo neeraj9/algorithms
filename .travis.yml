@@ -1,0 +1,22 @@
+language: cpp
+sudo: required
+dist: trusty
+compiler:
+  - clang
+  - gcc
+os:
+  - linux
+before_install:
+  - echo $LANG
+  - echo $LC_ALL
+  - echo $TRAVIS_JOB_ID
+  - sudo apt-get -qq update
+script:
+  - make
+branches:
+  only:
+    - master
+    - "/^v\\d+\\./"
+env:
+  global:
+    - LANG="en_US.UTF-8"
