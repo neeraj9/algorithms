@@ -1,6 +1,6 @@
 # Algorithms Reference Implementation
 
-[![Build Status](https://travis-ci.org/neeraj9/algorithms.svg?branch=master)](https://travis-ci.org/neeraj9/algorithms)
+[![Build Status](https://travis-ci.org/neeraj9/calgorithms.svg?branch=master)](https://travis-ci.org/neeraj9/calgorithms)
 [![Software License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](LICENSE)
 
 This project provides a set of algorithms implemented in c/c++ programming
